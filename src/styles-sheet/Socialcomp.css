@@ -1,0 +1,36 @@
+.contenedor-principal {
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  font-size: 30px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.social a:hover {
+  color: yellow !important;
+  box-shadow: 0 4px 16px transparent;
+}
+
+.social a {
+  font-size: 30px;
+  margin: auto;
+  box-sizing: content-box;
+  padding: 5px;
+  color: black;
+  text-shadow: 0 0 4px white;
+  /* font-family: "Titillium Web", sans-serif; */
+}
+
+.developer a{
+  color: yellow;
+}
