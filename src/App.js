@@ -19,10 +19,14 @@ function App() {
       </header>
 
       <div className="contenedor-principal">
-        <h1>
-          Nos obsesionamos por el éxito de los estudiantes. Su testimonio es
-          fuente de inspiración para toda nuestra comunidad.
-        </h1>
+        <div className="contenedorh1">
+          <h1>
+            🤙 Tu testimonio es fuente de inspiración para toda nuestra
+            comunidad.
+          </h1>
+
+          <button className="add"> Sumar </button>
+        </div>
 
         <Testimonio
           name="Sofia Praderio"
